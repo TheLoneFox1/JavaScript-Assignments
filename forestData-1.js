@@ -27,7 +27,8 @@ let parks = [
 
 
 // Task 1: Using array and object manipulation, change the name of "Riverside Park" to "Riverside Greenspace" for the relevant tree in the Parks Array.
-// Your code here
+parks.name [2] = {'Riverside Greenspace'};
+console.log(parks);
 
 // Task 2: Utilize array and object manipulation to change the name of the tree species "Maple" to "Sugar Maple" for the relevant tree located in "Central Park" within the parks array.
 // Your code here
@@ -51,7 +52,7 @@ let parks = [
 // Your code here
 
 // Task 9: Using console.log, display the name and facilities of the first item in the parks array.
-// Your code here
+//console.log(parksJSON);
 
 // Task 10: Using console.log, display the species of the third item in the parks array.
 // Your code here
